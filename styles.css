@@ -1,0 +1,62 @@
+label, textarea{
+    display: block;
+    margin: 10px
+  }
+  
+  
+  body{
+    background-image: url(https://images.pexels.com/photos/4109744/pexels-photo-4109744.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-4109744.jpg&fm=jpg);
+    font-family: "Verdana", sans-serif;
+  }
+  
+  form{
+    width: 60vw;
+      max-width: 600px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset{
+    background: #e5d3b3;
+    border-radius: 10px;
+    margin: 10px;
+    border: thin rgb(160,82,45);
+    
+  }
+  
+  h1, p{
+    color: white;
+    text-align: center;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 60%;
+    height: 40px;
+    background: #e5d3b3;
+    color: rgb(39, 23, 8);
+    border: solid thin;
+  }
+  
+  input, select, textarea{
+    margin: 10px;
+    background: white;
+    border: solid black;
+    border-radius: 10px;
+    height: 2em;
+    border-width: thin;
+  }
+  
+  ::placeholder{
+    color: #e5d3b3;
+  }
+  
+  .inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Cam's Coffee Shop</h1>
+    <p id="description">Thank you for taking the time to fill out this survey.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" > Please enter your name: <input id="name" type="text" placeholder="John Doe" required/>
+        </label>
+        <label id="email-label"> Please enter your email: <input id="email" type="email" placeholder="johndoe@gmail.com" required/> </label>
+        <label id="number-label"> Enter your age (optional): <input id="number" type="number" min="16" max="100" placeholder="20"/> </label> 
+<label>How did you hear about our shop?
+  <select id="dropdown" name="refferal">
+    <option value=""> (Select one) </option>
+    <option value="1">Internet</option>
+    <option value="2">Facebook </option>
+    <option value="3">Instagram </option>
+    <option value="4">Friend </option>
+    <option value="5">Other </option>
+  </select>
+</label>
+      </fieldset>
+
+      <fieldset>
+        <label id="recPrompt">Would you recommend us to a friend?</label>
+        <label><input type="radio" name="refferal-preference" value="Absolutely" class="inline">Absolutely!</label>
+        <label><input type="radio" name="refferal-preference" value="Possibly" class="inline">Possibly</label>
+        <label><input type="radio" name="refferal-preference" value="Unlikely" class="inline">Unlikely</label>
+      </fieldset>
+      <fieldset>
+        <label>Check off your favorite specialty drinks! (select all that apply)
+        </label>
+        <label><input type="checkbox" name="drink" value="IHL" class="inline" > Iced Honey Lavendar Latte</label>
+        <label><input type="checkbox" name="drink" value="SCL" class="inline"> Salted Caramel Latte</label>
+        <label><input type="checkbox" name="drink" value="DMCL" class="inline"> Dirty Maple Iced Chai Latte</label>
+        <label><input type="checkbox" name="drink" value="VCC" class="inline"> Vanilla Cream Cold Brew</label>
+        <label><input type="checkbox" name="drink" value="PSC" class="inline"> Pumpkin Spice Cold Brew</label>
+<label><input type="checkbox" name="drink" value="CAPS" class="inline"> Cinnamon Apple Spice Steamer</label>
+      </fieldset>
+      <fieldset>
+        <label id="customerInput"> Tell us what drinks you'd like to see in the future! <textarea> </textarea> </label>
+        </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+
+</html>
